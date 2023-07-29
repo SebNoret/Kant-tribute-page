@@ -10,7 +10,8 @@ const dev = "http://localhost:5173/";
 const prod = "https://sebnoret.github.io/portfolio/page-d-hommage/demo/";
 
 export default defineConfig({
-  base: prod,
+  base: prod
+,
   plugins: [
     legacy({
       targets: ["defaults", "not IE 11"],
